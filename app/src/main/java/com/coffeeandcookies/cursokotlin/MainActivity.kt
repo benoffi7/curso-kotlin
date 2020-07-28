@@ -1,5 +1,6 @@
 package com.coffeeandcookies.cursokotlin
 
+import android.content.Intent
 import android.os.Bundle
 import android.os.PersistableBundle
 import android.widget.Toast
@@ -30,6 +31,10 @@ class MainActivity : AppCompatActivity()
         else
         {
             //ir a otra pantalla
+            val intent = Intent(this, MiNombreActivity::class.java)
+            intent.putExtra("name", editTextTextPersonName.text.toString())
+            intent.putExtra("numero",3)
+            startActivity(intent)
         }
     }
 }
