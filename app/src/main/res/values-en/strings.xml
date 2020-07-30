@@ -4,5 +4,6 @@
     <string name="text_hola_mundo">Hello world</string>
     <string name="welcome">Welcome</string>
     <string name="back">Back</string>
+    <string name="button_superheroes">Go to superheroes</string>
 
 </resources>

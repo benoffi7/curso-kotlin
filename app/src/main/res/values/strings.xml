@@ -3,5 +3,6 @@
     <string name="text_hola_mundo">Hola Mundo Redondo!</string>
     <string name="welcome">Bievenido</string>
     <string name="back">Pa \'atras</string>
+    <string name="button_superheroes">Ir a superheroes</string>
 
 </resources>

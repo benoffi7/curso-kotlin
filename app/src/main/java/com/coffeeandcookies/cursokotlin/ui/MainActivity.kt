@@ -1,10 +1,10 @@
-package com.coffeeandcookies.cursokotlin
+package com.coffeeandcookies.cursokotlin.ui
 
 import android.content.Intent
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.coffeeandcookies.cursokotlin.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity()
@@ -17,6 +17,11 @@ class MainActivity : AppCompatActivity()
         setContentView(R.layout.activity_main)
         buttonAceptar.setOnClickListener {
             revisarCajatexto()
+        }
+        buttonSuperHeroes.setOnClickListener()
+        {
+            val intent : Intent = Intent(this,ListSuperHeroActivity::class.java)
+            startActivity(intent)
         }
 
 
@@ -33,7 +38,7 @@ class MainActivity : AppCompatActivity()
             //ir a otra pantalla
             val intent = Intent(this, MiNombreActivity::class.java)
             intent.putExtra("name", editTextTextPersonName.text.toString())
-            intent.putExtra("numero",3)
+            intent.putExtra("numero",1)
             startActivity(intent)
         }
     }
