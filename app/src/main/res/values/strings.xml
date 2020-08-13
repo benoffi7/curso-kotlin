@@ -4,5 +4,10 @@
     <string name="welcome">Bievenido</string>
     <string name="back">Pa \'atras</string>
     <string name="button_superheroes">Ir a superheroes</string>
-
+    <string name="pf_keep_me_login">Manteneme logeado</string>
+    <string name="pf_sound">Sonido</string>
+    <string name="pf_male">Hombre</string>
+    <string name="pf_female">Mujer</string>
+    <string name="pf_other">Otro</string>
+    <string name="pf_nc">Prefiero no decirlo</string>
 </resources>

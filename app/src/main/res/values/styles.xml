@@ -7,4 +7,15 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Componente">
+
+        <item name="android:layout_margin">@dimen/ancho</item>
+
+    </style>
+
+    <style name="Texto" parent="Componente">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+
+    </style>
+
 </resources>

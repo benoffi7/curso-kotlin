@@ -55,7 +55,7 @@ class SuperHeroAdapter : RecyclerView.Adapter<SuperHeroAdapter.ViewHolder>() {
 
         fun loadUrl(url: String)
         {
-            Picasso.get().load(url).placeholder(R.mipmap.ic_launcher).into(avatar);
+            Picasso.get().load(url).placeholder(R.mipmap.ic_launcher).error(R.mipmap.ic_launcher).into(avatar);
         }
     }
 

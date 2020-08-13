@@ -5,5 +5,11 @@
     <string name="welcome">Welcome</string>
     <string name="back">Back</string>
     <string name="button_superheroes">Go to superheroes</string>
+    <string name="pf_keep_me_login">Keep me logged in</string>
+    <string name="pf_sound">Sound</string>
+    <string name="pf_male">Male</string>
+    <string name="pf_female">Female</string>
+    <string name="pf_other">Other</string>
+    <string name="pf_nc">I\'d rather not say</string>
 
 </resources>

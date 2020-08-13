@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="@dimen/ancho"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+    <Switch
+       style="@style/Componente"
+        android:id="@+id/switch_KeepMeLoggedIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/pf_keep_me_login" />
+
+    <EditText
+        style="@style/Componente"
+        android:id="@+id/et_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingresa tu edad"
+        android:inputType="number" />
+
+    <EditText
+        style="@style/Componente"
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingresa tu mail"
+        android:inputType="textEmailAddress" />
+
+    <CheckBox
+        style="@style/Componente"
+        android:id="@+id/cb_sound"
+        android:checked="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pf_sound" />
+
+    <TextView
+        style="@style/Componente"
+        android:layout_width="wrap_content"
+        android:text="Genero"
+        android:layout_height="wrap_content"></TextView>
+
+    <RadioGroup
+        style="@style/Componente"
+        android:id="@+id/rg_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioButton_male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pf_male" />
+
+        <RadioButton
+            android:id="@+id/radioButton_female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pf_female" />
+
+        <RadioButton
+            android:id="@+id/radioButton_other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pf_other" />
+
+        <RadioButton
+            android:id="@+id/radioButton_nc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pf_nc" />
+    </RadioGroup>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="match_parent"
+        android:text="Submit"
+        style="@style/Texto"
+        android:layout_height="wrap_content"></Button>
+</LinearLayout>
